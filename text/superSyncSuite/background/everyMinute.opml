@@ -1,0 +1,1 @@
+on everyMinute () {	//Changes		//11/24/13; 12:00:44 PM by DW			//Created. 	local (adrdata = superSyncSuite.init (), adrpoint);	adrdata^.stats.ctMinutes++;	for adrpoint in @adrdata^.points {		superSyncSuite.initPoint (nameof (adrpoint^));}};bundle { //test code	everyMinute ()}

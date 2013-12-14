@@ -1,0 +1,1 @@
+on threadScript () {	//Changes		//11/25/13; 1:03:57 PM by DW			//Created.	local (adrdata = superSyncSuite.init ());	if adrdata^.prefs.enabled {		local (adrpoint);		adrdata^.stats.ctThreadLoops++;		for adrpoint in @adrdata^.points {			superSyncSuite.updatePoint (adrpoint)}}};bundle { //test code	threadScript ()}

@@ -1,0 +1,1 @@
+on everyHour () {	//Changes		//11/24/13; 12:00:44 PM by DW			//Created. 	local (adrdata = superSyncSuite.init ())};	//adrdata^.stats.ctHours++bundle { //test code	everyHour ()}
