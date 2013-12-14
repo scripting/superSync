@@ -1,5 +1,5 @@
 #### What it is
- - SuperSync is an <a href="http://home.opml.org/">OPML Editor</a> tool that runs on any computer that has access to your Dropbox folder. You can run it on your desktop computer (I do). It keeps folders in sync with locations on Amazon S3. You can have as many sharepoints as you want. You set it up by editing the config.root object database. It's useful with <a href="http://fargo.io/docs/whatsComingInFargo2.html">Fargo 2</a>, which stores static HTML pages in sub-folders of the Dropbox folder. It's how I keep the Fargo Docs site in sync with its location on S3. 
+ - SuperSync is an <a href="http://home.opml.org/">OPML Editor</a> tool that runs on any computer that has access to your Dropbox folder. You can run it on your desktop computer (I do). It keeps folders in sync with locations on Amazon S3. You can have as many sharepoints as you want. You set it up by editing the config.root object database. It's how I keep the Fargo Docs site in sync with its location on S3. 
 
 #### How to install
  - Choose Tool Catalog from the Misc menu in the OPML Editor. 
